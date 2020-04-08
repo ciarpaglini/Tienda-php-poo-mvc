@@ -1,0 +1,19 @@
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: carrito in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 63
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined offset: 0 in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 63
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: unidades in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 63
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: carrito in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 71
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined offset: 0 in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 71
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: unidades in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/carritoController.php on line 71
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: precio in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/helpers/utils.php on line 47
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: producto in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/views/carrito/index.php on line 14
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Trying to get property 'imagen' of non-object in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/views/carrito/index.php on line 19
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Trying to get property 'id' of non-object in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/views/carrito/index.php on line 26
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Trying to get property 'nombre' of non-object in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/views/carrito/index.php on line 26
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Trying to get property 'precio' of non-object in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/views/carrito/index.php on line 29
+[02-Apr-2020 04:46:21 UTC] PHP Notice:  Undefined index: precio in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/helpers/utils.php on line 47
+[02-Apr-2020 04:46:22 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_object() on bool in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/models/producto.php:113
+Stack trace:
+#0 /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/controllers/productoController.php(21): Producto->getOne()
+#1 /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/index.php(32): productoController->ver()
+#2 {main}
+  thrown in /home/jgfok46r96os/public_html/trabajos/proyecto-php-poo/models/producto.php on line 113
